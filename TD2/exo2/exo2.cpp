@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 int multiplier(int x, int y) {
 	return x * y;
@@ -13,7 +14,8 @@ int main(void) {
 		cin >> a;
 	}
 	for (int i = 1; i <= 10; i++) {
-		cout << "Resultat de " << a << "*" << i << " = " << multiplier(a, i) << endl;
+		cout << right << setw(4) << multiplier(a, i);
 	}
+	cout << endl;
 	return 0;
 }
