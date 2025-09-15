@@ -177,8 +177,8 @@ build TD1\rebuild_cache: phony TD1\CMakeFiles\rebuild_cache.util
 
 build cmake_object_order_depends_target_TD2_exo1: phony || .
 
-build TD2\CMakeFiles\TD2_exo1.dir\exo1.c.obj: C_COMPILER__TD2_exo1_unscanned_Debug C$:\Users\xneyl\Documents\POO-CPP-TDs\TD2\exo1.c || cmake_object_order_depends_target_TD2_exo1
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+build TD2\CMakeFiles\TD2_exo1.dir\exo1.c++.obj: CXX_COMPILER__TD2_exo1_unscanned_Debug C$:\Users\xneyl\Documents\POO-CPP-TDs\TD2\exo1.c++ || cmake_object_order_depends_target_TD2_exo1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   OBJECT_DIR = TD2\CMakeFiles\TD2_exo1.dir
   OBJECT_FILE_DIR = TD2\CMakeFiles\TD2_exo1.dir
   TARGET_COMPILE_PDB = TD2\CMakeFiles\TD2_exo1.dir\
@@ -192,8 +192,8 @@ build TD2\CMakeFiles\TD2_exo1.dir\exo1.c.obj: C_COMPILER__TD2_exo1_unscanned_Deb
 #############################################
 # Link the executable TD2\TD2_exo1.exe
 
-build TD2\TD2_exo1.exe: C_EXECUTABLE_LINKER__TD2_exo1_Debug TD2\CMakeFiles\TD2_exo1.dir\exo1.c.obj
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+build TD2\TD2_exo1.exe: CXX_EXECUTABLE_LINKER__TD2_exo1_Debug TD2\CMakeFiles\TD2_exo1.dir\exo1.c++.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = TD2\CMakeFiles\TD2_exo1.dir
