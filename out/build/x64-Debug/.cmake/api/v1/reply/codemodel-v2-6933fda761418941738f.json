@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -30,7 +31,23 @@
 					"source" : "TD1",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
+					]
+				},
+				{
+					"build" : "TD2",
+					"jsonFile" : "directory-TD2-Debug-6c2872e3574fabcfa3d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "TD2",
+					"targetIndexes" : 
+					[
+						2
 					]
 				}
 			],
@@ -41,12 +58,15 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "TDs",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -57,6 +77,20 @@
 					"id" : "TD1_exo1::@b566191a3c274e145dff",
 					"jsonFile" : "target-TD1_exo1-Debug-6e8c76660b8e5d110e91.json",
 					"name" : "TD1_exo1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "TD1_exo2::@b566191a3c274e145dff",
+					"jsonFile" : "target-TD1_exo2-Debug-9a8e1f1a6ecc3bdc5eea.json",
+					"name" : "TD1_exo2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "TD2_exo1::@9da4ee0c75e8576e4e08",
+					"jsonFile" : "target-TD2_exo1-Debug-686bb36a325c43c42a71.json",
+					"name" : "TD2_exo1",
 					"projectIndex" : 0
 				}
 			]
